@@ -1,0 +1,47 @@
+.navbar-container {
+    background-color: #232a2E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar-wrapper{
+    width: 90%;
+    display: flex;
+}
+
+.logo {
+    font-size: 32px;
+    font-style: italic;
+    color: #458cc5;
+}
+
+.elements {
+    margin-left: 70%;
+}
+.elements ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.elements ul li {
+    font-size: 24px;
+    white-space: space-between;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 1300px) {
+    .elements {
+        display: none;
+    }
+    .logo {
+        margin-right: 90%;
+    }
+    
+}
