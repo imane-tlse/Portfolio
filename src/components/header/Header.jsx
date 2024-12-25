@@ -13,6 +13,9 @@ const Header = () => {
                 I'm currently an engineering student <br/>Specialized in Telecommunication Systems and Networks<br/>
                 I enjoy expanding my knowledge and embracing challenges that foster my personal growth<br/>
             </p>
+            {/* <button onClick={()=> {
+                          downloadFileAtUrl(file.fichier)
+                      }}>Download CV</button> */}
         </div>
         <div className="header-picture">
             <img src={pic} alt="Imane EL BADRI"/>
@@ -21,5 +24,7 @@ const Header = () => {
     </div>
   )
 }
+
+
 
 export default Header

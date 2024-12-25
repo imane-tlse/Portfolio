@@ -5,12 +5,13 @@
     justify-content: center;
     align-items: center;
     color: #fff;
+    padding-bottom: 50px;
 }
 
 .header-wrapper {
     display: grid;
     margin-top: 120px;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     max-width: 100%;
 }
 
@@ -20,8 +21,17 @@
     margin-left: 140px;
 }
 
+.header-text p {
+    padding-bottom: 30px;
+}
+
+
 .header-text h1 {
     color: #136881;
+}
+
+.header-text button {
+    margin-left : 20px;
 }
 
 .header-text h3 {
@@ -43,6 +53,18 @@
     height: 400px;
     margin-top: 100px;
     border-radius:50%;
+}
+
+
+button {
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: #136881;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 100px;
 }
 
 @media screen and (max-width: 1300px) {

@@ -5,6 +5,7 @@ import climg from '../../images/c.jpg';
 import pythonimg from '../../images/pcap.jpg';
 import cyberimg from '../../images/cyber.jpg';
 import networkingimg from '../../images/ccna.jpg';
+import fortinet from '../../images/fortinet.jpg';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -78,6 +79,10 @@ const files = [
         img: networkingimg,
         fichier: `http://localhost:3000/files/ccna.pdf`
     },
+    {
+        img: fortinet,
+        fichier: `http://localhost:3000/files/fortinet.pdf`
+    }
 ];
 // const filename = ['ai.pdf','c.pdf', 'pcap.pdf', 'cybersec.pdf', 'ccnav7.pdf' ]
 
