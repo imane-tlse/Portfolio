@@ -61,29 +61,28 @@ const Cert = () => {
 const files = [
     {
         img: aiimg,
-        fichier: `http://localhost:3000/files/ai for everyone.pdf`
+        fichier: `https://imane-el.netlify.app/files/ai for everyone.pdf`
     },
     {
         img: climg,
-        fichier: `http://localhost:3000/files/c.pdf`
+        fichier: `https://imane-el.netlify.app/files/c.pdf`
     },
     {
         img: pythonimg,
-        fichier: `http://localhost:3000/files/pcap.pdf`
+        fichier: `https://imane-el.netlify.app/files/pcap.pdf`
     }, 
     {
         img: cyberimg,
-        fichier: `http://localhost:3000/files/cybersec.pdf`
+        fichier: `https://imane-el.netlify.app/files/cybersec.pdf`
     }, 
     {
         img: networkingimg,
-        fichier: `http://localhost:3000/files/ccna.pdf`
+        fichier: `https://imane-el.netlify.app/files/ccna.pdf`
     },
     {
         img: fortinet,
-        fichier: `http://localhost:3000/files/fortinet.pdf`
+        fichier: `https://imane-el.netlify.app/files/fortinet.pdf`
     }
 ];
-// const filename = ['ai.pdf','c.pdf', 'pcap.pdf', 'cybersec.pdf', 'ccnav7.pdf' ]
 
 export default Cert
