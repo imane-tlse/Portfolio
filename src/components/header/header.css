@@ -15,7 +15,7 @@
     max-width: 100%;
 }
 
-.header-text{
+.header-text {
     font-size: 30px;
     text-align: center;
     margin-left: 140px;
@@ -25,13 +25,12 @@
     padding-bottom: 30px;
 }
 
-
 .header-text h1 {
     color: #136881;
 }
 
 .header-text button {
-    margin-left : 20px;
+    margin-left: 20px;
 }
 
 .header-text h3 {
@@ -47,14 +46,12 @@
     margin-left: 100px;
 }
 
-
 .header-picture img {
     width: 400px;
     height: 400px;
     margin-top: 100px;
-    border-radius:50%;
+    border-radius: 50%;
 }
-
 
 button {
     width: 300px;
@@ -69,25 +66,33 @@ button {
 
 @media screen and (max-width: 1300px) {
     .header-wrapper {
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
-        
+        text-align: center;
     }
+
     .header-picture img {
-        width: 500px;
-        height: 500px;
-        margin-top: -50px;
+        width: 300px;
+        height: 300px;
+        margin-top: 0;
     }
 
     .header-picture {
-        margin-left: 100px;
-        margin-top: 50px;
+        margin-left: 0;
+        margin-top: 20px;
     }
 
-    .header-text{
+    .header-text {
         font-size: 20px;
-        margin-left: 50px;
+        margin-left: 0;
     }
 
+    .header-text button {
+        margin-left: 0;
+    }
+
+    button {
+        margin-left: 0;
+    }
 }
