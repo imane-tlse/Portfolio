@@ -94,7 +94,7 @@
     .unwanted-slider {
         display: grid;
         grid-template-columns: 1fr;
-        margin-left: 10%;
+        margin-left: 50%;
     }
     .item-cert {
         grid-template-columns: 1fr;
